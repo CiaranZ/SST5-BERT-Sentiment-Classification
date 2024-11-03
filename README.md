@@ -5,14 +5,23 @@ SST5 数据集短文本分类任务
 本项目旨在利用 SST5（Stanford Sentiment Treebank 5-class）数据集进行短文本分类任务。通过微调 BERT（Bidirectional Encoder Representations from Transformers）模型，我们实现了对文本情感倾向的分类。项目涵盖了数据预处理、模型训练、评估和模型保存等步骤。
 
 项目结构
+
 .  
+
 ├── README.md                  # 项目说明文件  
+
 ├── main.py                    # 主代码文件  
+
 ├── stanfordSentimentTreebank  # 数据集文件夹  
+
 │   ├── dictionary.txt         # 文本数据  
+
 │   └── sentiment_labels.txt   # 标签数据  
+
 ├── requirements.txt           # 依赖库文件  
+
 └── results                    # 训练结果输出目录  
+
     └── ...                    # 训练过程中生成的模型文件、日志等
 
 依赖库
